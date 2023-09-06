@@ -1,0 +1,41 @@
+---
+title: "The Global Competitiveness Report 2019"
+author: "World Economic Forum"
+date: "2021-01-11"
+output: 
+  html_document: 
+    toc: yes
+    number_sections: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#1 Introduction
+
+
+
+##Global Findings and Implications
+
+
+###Enhancing competitiveness is still key for improving living standards
+
+
+###The global economy is ill-prepared for a downturn after a lost decade for productivity-enhancing measures
+
+
+![Graphe1](./fig1.png)
+
+
+
+## Country Analysis
+
+![Graphe2](./fig2.png)
+
+
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
