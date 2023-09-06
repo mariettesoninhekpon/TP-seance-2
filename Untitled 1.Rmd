@@ -1,0 +1,34 @@
+---
+title: "Séance3 TP"
+author: "Mariette"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(gsheet)
+library(readr)
+```
+
+
+##Etape1 : Importer via un csv
+
+```{r}
+library(readr)
+gdp <- read_csv("https://raw.githubusercontent.com/warint/DPR/main/chapter6/data/chapter6data.csv")
+```
+
+## Etape 2: Importer via une feuille de calcul
+
+
+
+```{r}
+library(gsheet)
+locations <- gsheet2tbl("https://docs.google.com/spreadsheets/d/1nehKEBKTQx11LZuo5ZJFKTVS0p5y1ysMPSOSX_m8dS8/edit#gid=0")
+```
+
+
